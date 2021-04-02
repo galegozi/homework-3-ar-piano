@@ -64,6 +64,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\KeyPressedEvent.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -663,35 +664,11 @@
     <Reference Include="Boo.Lang">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/gegoz/vrar/homework-3-ar-piano/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/gegoz/vrar/homework-3-ar-piano/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/gegoz/vrar/homework-3-ar-piano/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/gegoz/vrar/homework-3-ar-piano/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/gegoz/vrar/homework-3-ar-piano/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/gegoz/vrar/homework-3-ar-piano/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/gegoz/vrar/homework-3-ar-piano/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/gegoz/vrar/homework-3-ar-piano/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/gegoz/vrar/homework-3-ar-piano/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors">
       <HintPath>C:/Users/gegoz/vrar/homework-3-ar-piano/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>C:/Users/gegoz/vrar/homework-3-ar-piano/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Services.SceneSystem">
       <HintPath>C:/Users/gegoz/vrar/homework-3-ar-piano/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Services.SceneSystem.dll</HintPath>
@@ -713,6 +690,9 @@
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.MicStream">
       <HintPath>C:/Users/gegoz/vrar/homework-3-ar-piano/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.MicStream.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>C:/Users/gegoz/vrar/homework-3-ar-piano/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput">
       <HintPath>C:/Users/gegoz/vrar/homework-3-ar-piano/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.dll</HintPath>
@@ -759,11 +739,17 @@
     <Reference Include="Microsoft.MixedReality.Toolkit">
       <HintPath>C:/Users/gegoz/vrar/homework-3-ar-piano/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>C:/Users/gegoz/vrar/homework-3-ar-piano/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.SDK.Editor">
       <HintPath>C:/Users/gegoz/vrar/homework-3-ar-piano/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.SDK.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding">
       <HintPath>C:/Users/gegoz/vrar/homework-3-ar-piano/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/Users/gegoz/vrar/homework-3-ar-piano/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem">
       <HintPath>C:/Users/gegoz/vrar/homework-3-ar-piano/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.dll</HintPath>
@@ -771,11 +757,17 @@
     <Reference Include="Microsoft.MixedReality.Toolkit.PlaneFinding">
       <HintPath>C:/Users/gegoz/vrar/homework-3-ar-piano/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.PlaneFinding.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>C:/Users/gegoz/vrar/homework-3-ar-piano/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor">
       <HintPath>C:/Users/gegoz/vrar/homework-3-ar-piano/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Services.CameraSystem">
       <HintPath>C:/Users/gegoz/vrar/homework-3-ar-piano/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Services.CameraSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.CollabProxy.Editor">
+      <HintPath>C:/Users/gegoz/vrar/homework-3-ar-piano/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.SDK">
       <HintPath>C:/Users/gegoz/vrar/homework-3-ar-piano/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.SDK.dll</HintPath>
@@ -794,6 +786,9 @@
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor">
       <HintPath>C:/Users/gegoz/vrar/homework-3-ar-piano/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>C:/Users/gegoz/vrar/homework-3-ar-piano/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem">
       <HintPath>C:/Users/gegoz/vrar/homework-3-ar-piano/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.dll</HintPath>
@@ -840,6 +835,9 @@
     <Reference Include="Microsoft.MixedReality.Toolkit.Services.BoundarySystem">
       <HintPath>C:/Users/gegoz/vrar/homework-3-ar-piano/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Services.BoundarySystem.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:/Users/gegoz/vrar/homework-3-ar-piano/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Extensions.HandPhysics">
       <HintPath>C:/Users/gegoz/vrar/homework-3-ar-piano/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Extensions.HandPhysics.dll</HintPath>
     </Reference>
@@ -854,6 +852,9 @@
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Services.InputSimulation">
       <HintPath>C:/Users/gegoz/vrar/homework-3-ar-piano/Library/ScriptAssemblies/Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>C:/Users/gegoz/vrar/homework-3-ar-piano/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>
